@@ -1,0 +1,18 @@
+CampName,StartDate,EndDate,RegistrationClosingDate,visibility,Faculty,Location,TotalSlots,CampCommitteeSlots,Description,StaffInChargeID
+C++,20-12-2023,25-12-2023,01-12-2023,TRUE,SCSE,NTU building,70,8,Learn the fundamentals of C++,UPAM
+Arduino,28-12-2023,30-11-2023,02-11-2023,FALSE,EEE,EEE building,40,4,Learn the basics of arduino,ANWIT
+Trekking,01-02-2024,03-02-2024,25-12-2023,TRUE,ALL,Pulau Ubin,50,9,Relax and unwind with nature ,HUKUMAR
+Oil Painting ,02-02-2023,05-02-2023,01-01-2023,TRUE,ALL,Chinese Garden,100,8,Learn the fundamentals of Oil painting ,OURIN
+Airplane,05-12-2023,07-12-2023,01-12-2023,FALSE,ALL,Changi,40,5,Learn the fundamentals of Aviation,UPAM
+Web development,07-12-2023,09-12-2023,02-12-2023,TRUE,ALL,SCSE Lab,99,5,Learn the basics of web development,UPAM
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
