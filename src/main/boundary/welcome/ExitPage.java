@@ -13,6 +13,7 @@ public class ExitPage {
      */
     public static void exitPage() {
         ChangePage.changePage();
+        HardReload.reload();
         System.out.println("Thank you for using our system!");
         System.out.println(BYE_LOGO);
         System.exit(0);
