@@ -80,6 +80,8 @@ public class CommitteeMainPage {
                     case 6-> StudentMainPage.registerForCamp(committee);
                     case 7-> StudentMainPage.withdrawFromCamp(committee);
                     case 8-> StudentMainPage.submitEnquiries(committee);
+                    case 9-> StudentMainPage.editEnquiries(committee);
+                    case 10-> StudentMainPage.deleteEnquiries(committee);
                     case 11-> StudentMainPage.viewAllEnquiries(committee);
                     case 12-> viewOverSeeingCampsEnquiries(committee);
                     case 13-> replyToEnquiries(committee);

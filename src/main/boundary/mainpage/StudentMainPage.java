@@ -237,7 +237,7 @@ public class StudentMainPage {
      * @throws PageBackException
      */
 
-    private static void editEnquiries(Student student) throws ModelNotFoundException, ModelAlreadyExistsException, PageBackException {
+    public static void editEnquiries(Student student) throws ModelNotFoundException, ModelAlreadyExistsException, PageBackException {
         ChangePage.changePage();
         List<Enquiry> enquiryList = EnquiryRepository.getInstance().findByRules(e-> !e.getAnswered(), e-> Objects.equals(e.getAskedByStudentId(), student.getUserName()));
         List<Integer> optionsAvailable = new ArrayList<>();
@@ -275,7 +275,7 @@ public class StudentMainPage {
      * @throws ModelNotFoundException
      * @throws PageBackException
      */
-    private static void deleteEnquiries(Student student) throws ModelNotFoundException, PageBackException {
+    public static void deleteEnquiries(Student student) throws ModelNotFoundException, PageBackException {
         ChangePage.changePage();
         List<Enquiry> enquiryList = EnquiryRepository.getInstance().findByRules(e-> !e.getAnswered(), e-> Objects.equals(e.getAskedByStudentId(), student.getUserName()));
         List<Integer> optionsAvailable = new ArrayList<>();
