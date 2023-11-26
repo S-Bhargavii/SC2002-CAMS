@@ -212,8 +212,6 @@ public class TXTReportGenerator implements ReportGenerator {
         for(Enquiry e:enquiryList){
             if(Objects.equals(e.getCampName(), camp.getCampName()))
             {
-                System.out.println(e.getQuestion());
-                System.out.println(e.getAnswer());
                 writer.write(String.format(formatEnquiryDetails,e.getQuestion(),e.getAnswer(),e.getAskedByStudentId(),e.getAnsweredByUserId(),e.getAnsweredByUserType()));
             }
         }
