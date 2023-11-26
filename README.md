@@ -1,5 +1,8 @@
 # SC2002-CAMS
 
+## Team Composition
+SCMC Group 3 comprises of Jace Seow Wen Hui, Kumar Janaki, Lee Jia Xin Mildred and Sunkara Bhargavi.
+
 ## Program Functionality
 We have implemented all the necessary functions for all domains, Student, Staff and Committee, in our CAMS program. We sincerely hope you would enjoy using our meticulously crafted program! :)
 
